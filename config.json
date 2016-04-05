@@ -1,0 +1,64 @@
+{
+  "name": "Dark Side",
+  "identifier": "koapp-theme-dark-side",
+  "description": {
+    "en-US" : "",
+    "es-ES" : "Plantilla basada en las guías de diseño de Material Design"
+  },
+  "version": "1.0.0",
+  "author": "King of App",
+  "category": [
+    "material-design"
+  ],
+  "price": 0,
+  "platforms": [
+    "android",
+    "ios",
+    "windows"
+  ],
+  "showOn": {
+    "market": true
+  },
+  "images" : {
+    "list" : "themes/koapp-theme-dark-side/images/list.png",
+    "screenshots" : [
+      "themes/koapp-theme-dark-side/images/screenshot01.png",
+      "themes/koapp-theme-dark-side/images/screenshot02.png"
+    ],
+    "popover" : "themes/koapp-theme-dark-side/images/popover.png",
+    "banner" : "themes/koapp-theme-dark-side/images/banner.png"
+  },
+  "defaultConfig": {
+    "colors": {
+      "primaryTextColor": "#ffffff",
+      "primaryBackgroundColor": "#ffffff",
+      "secondaryTextColor": "#ffffff",
+      "disabledTextColor": "#000000",
+      "dividerColor": "#e0e0e0",
+      "primaryColor": "#3b8183",
+      "lightPrimaryColor": "#c5cae9",
+      "darkPrimaryColor": "#424b4b",
+      "accentColor": "#3b8183",
+      "lightAccentColor": "#3b8183",
+      "darkAccentColor": "#3b8183",
+      "errorColor": "#dd2c00",
+      "backgroundColor": "#212121"
+    },
+    "images": {
+      "background": ""
+    },
+    "fonts": {
+      "primaryFontFamily": {
+        "name": "Open Sans",
+        "url": "https://fonts.googleapis.com/css?family=Open+Sans"
+      },
+      "titleFontFamily": {
+        "name": "Oswald",
+        "url": "https://fonts.googleapis.com/css?family=Oswald"
+      }
+    },
+    "menu": "polymermenu"
+  },
+  "subscription": false,
+  "main": "themes/koapp-theme-dark-side/koapp-theme-dark-side.html"
+}
